@@ -1,0 +1,68 @@
+/* ظاهر کلی صفحه */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #fefcf8;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* کانتینر مرکزی */
+.container {
+  padding: 20px;
+  max-width: 480px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* تیتر */
+h1 {
+  font-size: 26px;
+  margin-top: 50px;
+  color: #6c4dd8;
+}
+
+/* متن ساده */
+p {
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+/* دکمه */
+button {
+  background-color: #e0d4ff;
+  color: #333;
+  border: none;
+  border-radius: 12px;
+  padding: 14px 20px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  max-width: 280px;
+  margin: 20px auto;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #d0c0ff;
+}
+
+/* واکنش‌گرا بودن برای موبایل */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 12px;
+  }
+}
