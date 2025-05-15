@@ -1,10 +1,11 @@
 {
   "name": "Hedile",
   "short_name": "Hedile",
-  "start_url": "index.html",
+  "description": "Mobile-only coding. No laptop needed.",
+  "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#fff9f4",
-  "theme_color": "#6c4dd8",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
   "icons": [
     {
       "src": "icon-192.png",
